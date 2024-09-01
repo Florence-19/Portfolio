@@ -89,17 +89,49 @@
     text-align: center;
     padding: 0;
   }
-
-  .project-desciption {
-    padding: 0;
-    text-align: center;
-  }
 }
-
     h1, h2{
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
       </style>
       </head>
@@ -143,23 +175,38 @@
                 </div>
               </div>
               <div class="col-lg-6">
-                <img src="Florence picture 1.jpg" alt="Florence Adejumo" class="img-fluid rounded" height="500"/>
+                <img src="Florence picture 1.jpg" alt="Florence Adejumo" class="rounded" height="500"/>
               </div>
             </div>
           </div>
 
-          <div class="aboutus shadow p-3 mb-5 bg-body-tertiary rounded text-center">
-          <div class="row">
-            <div class="col">
-             <h1>Work Enquiry</h1> 
-            <p>Let work together and I will help you by all my best</p>
-           </div>
-           <div class="col">
-              <a href="Comntactme.html" class="btn btn-branding-outline mt-3" title="Florence Adejumo frontent developer Project" id="btn">Contact Me</a>
-            </div>
+          <footer>
+            <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+              <div>
+                <h4>Work Inquiry</h4>
+                <p class="text-muted">Let's work together</p>
               </div>
-          </div>
-            
+              <div>
+                <a href="" class="btn btn-branding mt-3"> Contact me </a>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+              <a href="mailto:adejumoflorenceb@gmail.com" class="email-link">
+                adejumoflorenceb@gmail.com
+              </a>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+              <a href="https://github.com/Florence-19" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/florence-boluwatife-11070022me" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://web.facebook.com/adejumo.boluwatife.50" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </div>
+          </footer>
               
 
           
